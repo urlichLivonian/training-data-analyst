@@ -1,0 +1,6 @@
+Vertex AI Workbench instance with JupyterLab version 4
+
+Python 3.10.19
+
+
+
