@@ -1,0 +1,17 @@
+# Updated for Python 3.11+
+# Apache Beam: Python 3.11 support is guaranteed in 2.64.0+; keep within the same minor for repeatable installs.
+apache-beam[gcp]>=2.70.0,<2.71
+
+# Use specific Google Cloud client libraries (the `google-cloud` meta-package is deprecated)
+google-cloud-bigquery>=3.38.0,<4
+google-cloud-datastore>=2.20.0,<3
+google-cloud-pubsub>=2.0.0,<3
+google-cloud-storage>=3.7.0,<4
+google-cloud-vision>=3.11.0,<4
+
+# Runtime deps
+numpy>=1.26.0,<2
+six>=1.16.0
+
+# Test-only (use unittest.mock on modern Python; keep mock optional for very old interpreters)
+mock>=5.0.0; python_version < "3.3"

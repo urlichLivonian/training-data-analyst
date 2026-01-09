@@ -1,0 +1,13 @@
+name: training-data-analyst
+channels:
+  - pypi
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - tensorflow==2.13.1
+  - jupyterlab~=4.5.1
+  - setuptools==80.9.0
+  - scikit-learn==1.8.0
+  - matplotlib==3.10.6
+prefix: /opt/homebrew/anaconda3/envs/training-data-analyst
